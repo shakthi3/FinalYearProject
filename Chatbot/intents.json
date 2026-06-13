@@ -1,0 +1,1052 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "Hello", "Good day", "Hey", "Greetings"],
+      "responses": [
+        "Hello! How can I assist you with travel today?",
+        "Hi there! What travel information are you looking for?"
+      ]
+    },
+    {
+      "tag": "travel_guide_1",
+      "patterns": [
+        "What is the cost to visit Red Fort, Delhi?",
+        "Tell me about a trip to Red Fort",
+        "I want to travel to Red Fort, Delhi",
+        "How much for a tour of Red Fort?",
+        "Can you guide me for Red Fort visit?"
+      ],
+      "responses": [
+        "A trip to Red Fort, Delhi typically costs around ₹500 per person including entry and guide. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_2",
+      "patterns": [
+        "What is the cost to visit Qutub Minar?",
+        "Tell me about a trip to Qutub Minar",
+        "I want to travel to Qutub Minar, Delhi",
+        "How much for Qutub Minar tour?",
+        "Can you guide me for Qutub Minar visit?"
+      ],
+      "responses": [
+        "A trip to Qutub Minar typically costs around ₹600 per person including entry and transport. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_3",
+      "patterns": [
+        "What is the cost to visit India Gate?",
+        "Tell me about a trip to India Gate",
+        "I want to travel to India Gate, Delhi",
+        "How much for India Gate tour?",
+        "Can you guide me for India Gate visit?"
+      ],
+      "responses": [
+        "Visiting India Gate is free, but a guided city tour including transport may cost around ₹800. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_4",
+      "patterns": [
+        "What is the cost to visit Lotus Temple?",
+        "Tell me about a trip to Lotus Temple",
+        "I want to travel to Lotus Temple, Delhi",
+        "How much for Lotus Temple tour?",
+        "Can you guide me for Lotus Temple visit?"
+      ],
+      "responses": [
+        "A trip to Lotus Temple is free, but combined with other Delhi sights may cost around ₹1000 for a full day tour. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_5",
+      "patterns": [
+        "What is the cost to visit Akshardham Temple?",
+        "Tell me about a trip to Akshardham",
+        "I want to travel to Akshardham Temple",
+        "How much for Akshardham tour?",
+        "Can you guide me for Akshardham visit?"
+      ],
+      "responses": [
+        "A trip to Akshardham Temple typically costs around ₹200 per person for entry, with full tours around ₹1500. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_6",
+      "patterns": [
+        "What is the cost to visit Humayun's Tomb?",
+        "Tell me about a trip to Humayun's Tomb",
+        "I want to travel to Humayun's Tomb",
+        "How much for Humayun's Tomb tour?",
+        "Can you guide me for Humayun's Tomb visit?"
+      ],
+      "responses": [
+        "A trip to Humayun's Tomb typically costs around ₹500 per person including entry and guide. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_7",
+      "patterns": [
+        "What is the cost to visit Jama Masjid?",
+        "Tell me about a trip to Jama Masjid",
+        "I want to travel to Jama Masjid, Delhi",
+        "How much for Jama Masjid tour?",
+        "Can you guide me for Jama Masjid visit?"
+      ],
+      "responses": [
+        "Visiting Jama Masjid is free, but a guided tour with nearby attractions may cost around ₹700. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_8",
+      "patterns": [
+        "What is the cost to visit Chandni Chowk?",
+        "Tell me about a trip to Chandni Chowk",
+        "I want to travel to Chandni Chowk, Delhi",
+        "How much for Chandni Chowk tour?",
+        "Can you guide me for Chandni Chowk visit?"
+      ],
+      "responses": [
+        "A Chandni Chowk food and heritage walk typically costs around ₹1000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_9",
+      "patterns": [
+        "What is the cost to visit Hauz Khas Village?",
+        "Tell me about a trip to Hauz Khas",
+        "I want to travel to Hauz Khas Village",
+        "How much for Hauz Khas tour?",
+        "Can you guide me for Hauz Khas visit?"
+      ],
+      "responses": [
+        "A trip to Hauz Khas Village typically costs around ₹500 for transport and guide. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_10",
+      "patterns": [
+        "What is the cost to visit National Museum Delhi?",
+        "Tell me about a trip to National Museum",
+        "I want to travel to National Museum",
+        "How much for National Museum tour?",
+        "Can you guide me for National Museum visit?"
+      ],
+      "responses": [
+        "A trip to National Museum typically costs around ₹300 per person including entry. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_11",
+      "patterns": [
+        "What is the cost to visit Mumbai Gateway of India?",
+        "Tell me about a trip to Gateway of India",
+        "I want to travel to Gateway of India",
+        "How much for Gateway of India tour?",
+        "Can you guide me for Gateway visit?"
+      ],
+      "responses": [
+        "Visiting Gateway of India is free, but boat rides and nearby tours cost around ₹1000. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_12",
+      "patterns": [
+        "What is the cost to visit Elephanta Caves?",
+        "Tell me about a trip to Elephanta Caves",
+        "I want to travel to Elephanta Caves",
+        "How much for Elephanta Caves tour?",
+        "Can you guide me for Elephanta visit?"
+      ],
+      "responses": [
+        "A trip to Elephanta Caves typically costs around ₹1500 including ferry and guide. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_13",
+      "patterns": [
+        "What is the cost to visit Marine Drive?",
+        "Tell me about a trip to Marine Drive",
+        "I want to travel to Marine Drive",
+        "How much for Marine Drive tour?",
+        "Can you guide me for Marine Drive visit?"
+      ],
+      "responses": [
+        "Visiting Marine Drive is free, but combined Mumbai tours cost around ₹2000. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_14",
+      "patterns": [
+        "What is the cost to visit Juhu Beach?",
+        "Tell me about a trip to Juhu Beach",
+        "I want to travel to Juhu Beach",
+        "How much for Juhu Beach tour?",
+        "Can you guide me for Juhu visit?"
+      ],
+      "responses": [
+        "A trip to Juhu Beach typically costs around ₹500 for transport and snacks. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_15",
+      "patterns": [
+        "What is the cost to visit Siddhivinayak Temple?",
+        "Tell me about a trip to Siddhivinayak",
+        "I want to travel to Siddhivinayak Temple",
+        "How much for Siddhivinayak tour?",
+        "Can you guide me for Siddhivinayak visit?"
+      ],
+      "responses": [
+        "Visiting Siddhivinayak Temple is free, but special entry may cost ₹100. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_16",
+      "patterns": [
+        "What is the cost to visit Haji Ali Dargah?",
+        "Tell me about a trip to Haji Ali",
+        "I want to travel to Haji Ali Dargah",
+        "How much for Haji Ali tour?",
+        "Can you guide me for Haji Ali visit?"
+      ],
+      "responses": [
+        "Visiting Haji Ali Dargah is free, but combined tours cost around ₹800. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_17",
+      "patterns": [
+        "What is the cost to visit Sanjay Gandhi Park?",
+        "Tell me about a trip to Sanjay Gandhi Park",
+        "I want to travel to Sanjay Gandhi Park",
+        "How much for Sanjay Gandhi tour?",
+        "Can you guide me for Sanjay Gandhi visit?"
+      ],
+      "responses": [
+        "A trip to Sanjay Gandhi National Park costs around ₹100 per person for entry. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_18",
+      "patterns": [
+        "What is the cost to visit Chhatrapati Shivaji Terminus?",
+        "Tell me about a trip to CST",
+        "I want to travel to Chhatrapati Terminus",
+        "How much for CST tour?",
+        "Can you guide me for CST visit?"
+      ],
+      "responses": [
+        "Visiting CST is free, but heritage walks cost around ₹500. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_19",
+      "patterns": [
+        "What is the cost to visit Kanheri Caves?",
+        "Tell me about a trip to Kanheri Caves",
+        "I want to travel to Kanheri Caves",
+        "How much for Kanheri Caves tour?",
+        "Can you guide me for Kanheri visit?"
+      ],
+      "responses": [
+        "A trip to Kanheri Caves typically costs around ₹800 including transport. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_20",
+      "patterns": [
+        "What is the cost to visit Film City Mumbai?",
+        "Tell me about a trip to Film City",
+        "I want to travel to Film City",
+        "How much for Film City tour?",
+        "Can you guide me for Film City visit?"
+      ],
+      "responses": [
+        "A Film City tour typically costs around ₹1200 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_21",
+      "patterns": [
+        "What is the cost to visit Victoria Memorial Kolkata?",
+        "Tell me about a trip to Victoria Memorial",
+        "I want to travel to Victoria Memorial",
+        "How much for Victoria Memorial tour?",
+        "Can you guide me for Victoria visit?"
+      ],
+      "responses": [
+        "A trip to Victoria Memorial typically costs around ₹500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_22",
+      "patterns": [
+        "What is the cost to visit Howrah Bridge?",
+        "Tell me about a trip to Howrah Bridge",
+        "I want to travel to Howrah Bridge",
+        "How much for Howrah Bridge tour?",
+        "Can you guide me for Howrah visit?"
+      ],
+      "responses": [
+        "Visiting Howrah Bridge is free, but river cruises cost around ₹300. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_23",
+      "patterns": [
+        "What is the cost to visit Dakshineswar Temple?",
+        "Tell me about a trip to Dakshineswar",
+        "I want to travel to Dakshineswar Temple",
+        "How much for Dakshineswar tour?",
+        "Can you guide me for Dakshineswar visit?"
+      ],
+      "responses": [
+        "A trip to Dakshineswar Temple typically costs around ₹400 including transport. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_24",
+      "patterns": [
+        "What is the cost to visit Belur Math?",
+        "Tell me about a trip to Belur Math",
+        "I want to travel to Belur Math",
+        "How much for Belur Math tour?",
+        "Can you guide me for Belur visit?"
+      ],
+      "responses": [
+        "Visiting Belur Math is free, but combined tours cost around ₹600. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_25",
+      "patterns": [
+        "What is the cost to visit Indian Museum Kolkata?",
+        "Tell me about a trip to Indian Museum",
+        "I want to travel to Indian Museum",
+        "How much for Indian Museum tour?",
+        "Can you guide me for Indian Museum visit?"
+      ],
+      "responses": [
+        "A trip to Indian Museum typically costs around ₹100 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_26",
+      "patterns": [
+        "What is the cost to visit Science City Kolkata?",
+        "Tell me about a trip to Science City",
+        "I want to travel to Science City",
+        "How much for Science City tour?",
+        "Can you guide me for Science City visit?"
+      ],
+      "responses": [
+        "A trip to Science City typically costs around ₹250 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_27",
+      "patterns": [
+        "What is the cost to visit Eden Gardens?",
+        "Tell me about a trip to Eden Gardens",
+        "I want to travel to Eden Gardens",
+        "How much for Eden Gardens tour?",
+        "Can you guide me for Eden visit?"
+      ],
+      "responses": [
+        "Stadium tours at Eden Gardens cost around ₹300 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_28",
+      "patterns": [
+        "What is the cost to visit Marble Palace?",
+        "Tell me about a trip to Marble Palace",
+        "I want to travel to Marble Palace",
+        "How much for Marble Palace tour?",
+        "Can you guide me for Marble Palace visit?"
+      ],
+      "responses": [
+        "Visiting Marble Palace requires permission but entry is free. Guided tours cost around ₹500. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_29",
+      "patterns": [
+        "What is the cost to visit Birla Planetarium?",
+        "Tell me about a trip to Birla Planetarium",
+        "I want to travel to Birla Planetarium",
+        "How much for Planetarium tour?",
+        "Can you guide me for Planetarium visit?"
+      ],
+      "responses": [
+        "A trip to Birla Planetarium typically costs around ₹150 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_30",
+      "patterns": [
+        "What is the cost to visit Nicco Park?",
+        "Tell me about a trip to Nicco Park",
+        "I want to travel to Nicco Park",
+        "How much for Nicco Park tour?",
+        "Can you guide me for Nicco visit?"
+      ],
+      "responses": [
+        "A trip to Nicco Park typically costs around ₹600 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_31",
+      "patterns": [
+        "What is the cost to visit Mysore Palace?",
+        "Tell me about a trip to Mysore Palace",
+        "I want to travel to Mysore Palace",
+        "How much for Mysore Palace tour?",
+        "Can you guide me for Mysore visit?"
+      ],
+      "responses": [
+        "A trip to Mysore Palace typically costs around ₹700 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_32",
+      "patterns": [
+        "What is the cost to visit Brindavan Gardens?",
+        "Tell me about a trip to Brindavan Gardens",
+        "I want to travel to Brindavan Gardens",
+        "How much for Brindavan tour?",
+        "Can you guide me for Brindavan visit?"
+      ],
+      "responses": [
+        "A trip to Brindavan Gardens typically costs around ₹500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_33",
+      "patterns": [
+        "What is the cost to visit Chamundi Hills?",
+        "Tell me about a trip to Chamundi Hills",
+        "I want to travel to Chamundi Hills",
+        "How much for Chamundi Hills tour?",
+        "Can you guide me for Chamundi visit?"
+      ],
+      "responses": [
+        "A trip to Chamundi Hills typically costs around ₹400 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_34",
+      "patterns": [
+        "What is the cost to visit Srirangapatna?",
+        "Tell me about a trip to Srirangapatna",
+        "I want to travel to Srirangapatna",
+        "How much for Srirangapatna tour?",
+        "Can you guide me for Srirangapatna visit?"
+      ],
+      "responses": [
+        "A trip to Srirangapatna typically costs around ₹800 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_35",
+      "patterns": [
+        "What is the cost to visit Jog Falls?",
+        "Tell me about a trip to Jog Falls",
+        "I want to travel to Jog Falls",
+        "How much for Jog Falls tour?",
+        "Can you guide me for Jog visit?"
+      ],
+      "responses": [
+        "A trip to Jog Falls typically costs around ₹1500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_36",
+      "patterns": [
+        "What is the cost to visit Coorg?",
+        "Tell me about a trip to Coorg",
+        "I want to travel to Coorg",
+        "How much for Coorg tour?",
+        "Can you guide me for Coorg visit?"
+      ],
+      "responses": [
+        "A 2-day trip to Coorg typically costs around ₹5000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_37",
+      "patterns": [
+        "What is the cost to visit Hampi?",
+        "Tell me about a trip to Hampi",
+        "I want to travel to Hampi",
+        "How much for Hampi tour?",
+        "Can you guide me for Hampi visit?"
+      ],
+      "responses": [
+        "A 2-day trip to Hampi typically costs around ₹4000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_38",
+      "patterns": [
+        "What is the cost to visit Badami?",
+        "Tell me about a trip to Badami",
+        "I want to travel to Badami",
+        "How much for Badami tour?",
+        "Can you guide me for Badami visit?"
+      ],
+      "responses": [
+        "A trip to Badami typically costs around ₹3000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_39",
+      "patterns": [
+        "What is the cost to visit Pattadakal?",
+        "Tell me about a trip to Pattadakal",
+        "I want to travel to Pattadakal",
+        "How much for Pattadakal tour?",
+        "Can you guide me for Pattadakal visit?"
+      ],
+      "responses": [
+        "A trip to Pattadakal typically costs around ₹2500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_40",
+      "patterns": [
+        "What is the cost to visit Aihole?",
+        "Tell me about a trip to Aihole",
+        "I want to travel to Aihole",
+        "How much for Aihole tour?",
+        "Can you guide me for Aihole visit?"
+      ],
+      "responses": [
+        "A trip to Aihole typically costs around ₹2000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_41",
+      "patterns": [
+        "What is the cost to visit Gokarna?",
+        "Tell me about a trip to Gokarna",
+        "I want to travel to Gokarna",
+        "How much for Gokarna tour?",
+        "Can you guide me for Gokarna visit?"
+      ],
+      "responses": [
+        "A 3-day trip to Gokarna typically costs around ₹6000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_42",
+      "patterns": [
+        "What is the cost to visit Murudeshwar?",
+        "Tell me about a trip to Murudeshwar",
+        "I want to travel to Murudeshwar",
+        "How much for Murudeshwar tour?",
+        "Can you guide me for Murudeshwar visit?"
+      ],
+      "responses": [
+        "A trip to Murudeshwar typically costs around ₹4000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_43",
+      "patterns": [
+        "What is the cost to visit Udupi?",
+        "Tell me about a trip to Udupi",
+        "I want to travel to Udupi",
+        "How much for Udupi tour?",
+        "Can you guide me for Udupi visit?"
+      ],
+      "responses": [
+        "A trip to Udupi typically costs around ₹3500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_44",
+      "patterns": [
+        "What is the cost to visit Chikmagalur?",
+        "Tell me about a trip to Chikmagalur",
+        "I want to travel to Chikmagalur",
+        "How much for Chikmagalur tour?",
+        "Can you guide me for Chikmagalur visit?"
+      ],
+      "responses": [
+        "A 2-day trip to Chikmagalur typically costs around ₹5000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_45",
+      "patterns": [
+        "What is the cost to visit Bandipur?",
+        "Tell me about a trip to Bandipur",
+        "I want to travel to Bandipur",
+        "How much for Bandipur tour?",
+        "Can you guide me for Bandipur visit?"
+      ],
+      "responses": [
+        "A safari trip to Bandipur typically costs around ₹3000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_46",
+      "patterns": [
+        "What is the cost to visit Nagarhole?",
+        "Tell me about a trip to Nagarhole",
+        "I want to travel to Nagarhole",
+        "How much for Nagarhole tour?",
+        "Can you guide me for Nagarhole visit?"
+      ],
+      "responses": [
+        "A safari trip to Nagarhole typically costs around ₹3500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_47",
+      "patterns": [
+        "What is the cost to visit Kabini?",
+        "Tell me about a trip to Kabini",
+        "I want to travel to Kabini",
+        "How much for Kabini tour?",
+        "Can you guide me for Kabini visit?"
+      ],
+      "responses": [
+        "A 2-day trip to Kabini typically costs around ₹8000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_48",
+      "patterns": [
+        "What is the cost to visit Dandeli?",
+        "Tell me about a trip to Dandeli",
+        "I want to travel to Dandeli",
+        "How much for Dandeli tour?",
+        "Can you guide me for Dandeli visit?"
+      ],
+      "responses": [
+        "An adventure trip to Dandeli typically costs around ₹5000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_49",
+      "patterns": [
+        "What is the cost to visit Jog Falls?",
+        "Tell me about a trip to Jog Falls",
+        "I want to travel to Jog Falls",
+        "How much for Jog Falls tour?",
+        "Can you guide me for Jog visit?"
+      ],
+      "responses": [
+        "A trip to Jog Falls typically costs around ₹1500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_50",
+      "patterns": [
+        "What is the cost to visit Shivanasamudra?",
+        "Tell me about a trip to Shivanasamudra",
+        "I want to travel to Shivanasamudra",
+        "How much for Shivanasamudra tour?",
+        "Can you guide me for Shivanasamudra visit?"
+      ],
+      "responses": [
+        "A trip to Shivanasamudra Falls typically costs around ₹2000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_51",
+      "patterns": [
+        "What is the cost to visit Nandi Hills?",
+        "Tell me about a trip to Nandi Hills",
+        "I want to travel to Nandi Hills",
+        "How much for Nandi Hills tour?",
+        "Can you guide me for Nandi visit?"
+      ],
+      "responses": [
+        "A trip to Nandi Hills typically costs around ₹1000 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_52",
+      "patterns": [
+        "What is the cost to visit Bannerghatta?",
+        "Tell me about a trip to Bannerghatta",
+        "I want to travel to Bannerghatta",
+        "How much for Bannerghatta tour?",
+        "Can you guide me for Bannerghatta visit?"
+      ],
+      "responses": [
+        "A trip to Bannerghatta National Park typically costs around ₹800 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_53",
+      "patterns": [
+        "What is the cost to visit Wonderla Bangalore?",
+        "Tell me about a trip to Wonderla",
+        "I want to travel to Wonderla",
+        "How much for Wonderla tour?",
+        "Can you guide me for Wonderla visit?"
+      ],
+      "responses": [
+        "A trip to Wonderla typically costs around ₹1500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_54",
+      "patterns": [
+        "What is the cost to visit Lalbagh?",
+        "Tell me about a trip to Lalbagh",
+        "I want to travel to Lalbagh",
+        "How much for Lalbagh tour?",
+        "Can you guide me for Lalbagh visit?"
+      ],
+      "responses": [
+        "A trip to Lalbagh typically costs around ₹200 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_55",
+      "patterns": [
+        "What is the cost to visit Cubbon Park?",
+        "Tell me about a trip to Cubbon Park",
+        "I want to travel to Cubbon Park",
+        "How much for Cubbon Park tour?",
+        "Can you guide me for Cubbon visit?"
+      ],
+      "responses": [
+        "Visiting Cubbon Park is free, but guided tours cost around ₹300. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_56",
+      "patterns": [
+        "What is the cost to visit ISKCON Bangalore?",
+        "Tell me about a trip to ISKCON",
+        "I want to travel to ISKCON",
+        "How much for ISKCON tour?",
+        "Can you guide me for ISKCON visit?"
+      ],
+      "responses": [
+        "Visiting ISKCON is free, but special tours cost around ₹200. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_57",
+      "patterns": [
+        "What is the cost to visit Bangalore Palace?",
+        "Tell me about a trip to Bangalore Palace",
+        "I want to travel to Bangalore Palace",
+        "How much for Bangalore Palace tour?",
+        "Can you guide me for Bangalore Palace visit?"
+      ],
+      "responses": [
+        "A trip to Bangalore Palace typically costs around ₹500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_58",
+      "patterns": [
+        "What is the cost to visit Vidhana Soudha?",
+        "Tell me about a trip to Vidhana Soudha",
+        "I want to travel to Vidhana Soudha",
+        "How much for Vidhana Soudha tour?",
+        "Can you guide me for Vidhana visit?"
+      ],
+      "responses": [
+        "Viewing Vidhana Soudha is free, but special entry costs around ₹100. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_59",
+      "patterns": [
+        "What is the cost to visit Tipu Sultan's Palace?",
+        "Tell me about a trip to Tipu Sultan Palace",
+        "I want to travel to Tipu Sultan Palace",
+        "How much for Tipu Palace tour?",
+        "Can you guide me for Tipu Palace visit?"
+      ],
+      "responses": [
+        "A trip to Tipu Sultan's Palace typically costs around ₹300 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_60",
+      "patterns": [
+        "What is the cost to visit UB City?",
+        "Tell me about a trip to UB City",
+        "I want to travel to UB City",
+        "How much for UB City tour?",
+        "Can you guide me for UB City visit?"
+      ],
+      "responses": [
+        "Visiting UB City is free, but dining/shopping costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_61",
+      "patterns": [
+        "What is the cost to visit Innovative Film City?",
+        "Tell me about a trip to Innovative Film City",
+        "I want to travel to Innovative Film City",
+        "How much for Film City tour?",
+        "Can you guide me for Film City visit?"
+      ],
+      "responses": [
+        "A trip to Innovative Film City typically costs around ₹1200 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_62",
+      "patterns": [
+        "What is the cost to visit Snow City?",
+        "Tell me about a trip to Snow City",
+        "I want to travel to Snow City",
+        "How much for Snow City tour?",
+        "Can you guide me for Snow City visit?"
+      ],
+      "responses": [
+        "A trip to Snow City typically costs around ₹600 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_63",
+      "patterns": [
+        "What is the cost to visit Visvesvaraya Museum?",
+        "Tell me about a trip to Visvesvaraya Museum",
+        "I want to travel to Visvesvaraya Museum",
+        "How much for Visvesvaraya tour?",
+        "Can you guide me for Visvesvaraya visit?"
+      ],
+      "responses": [
+        "A trip to Visvesvaraya Museum typically costs around ₹200 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_64",
+      "patterns": [
+        "What is the cost to visit Jawaharlal Nehru Planetarium?",
+        "Tell me about a trip to Nehru Planetarium",
+        "I want to travel to Nehru Planetarium",
+        "How much for Planetarium tour?",
+        "Can you guide me for Planetarium visit?"
+      ],
+      "responses": [
+        "A trip to Nehru Planetarium typically costs around ₹150 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_65",
+      "patterns": [
+        "What is the cost to visit Lumbini Gardens?",
+        "Tell me about a trip to Lumbini Gardens",
+        "I want to travel to Lumbini Gardens",
+        "How much for Lumbini tour?",
+        "Can you guide me for Lumbini visit?"
+      ],
+      "responses": [
+        "A trip to Lumbini Gardens typically costs around ₹400 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_66",
+      "patterns": [
+        "What is the cost to visit Art of Living Center?",
+        "Tell me about a trip to Art of Living",
+        "I want to travel to Art of Living",
+        "How much for Art of Living tour?",
+        "Can you guide me for Art of Living visit?"
+      ],
+      "responses": [
+        "A trip to Art of Living Center typically costs around ₹500 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_67",
+      "patterns": [
+        "What is the cost to visit Bull Temple?",
+        "Tell me about a trip to Bull Temple",
+        "I want to travel to Bull Temple",
+        "How much for Bull Temple tour?",
+        "Can you guide me for Bull Temple visit?"
+      ],
+      "responses": [
+        "Visiting Bull Temple is free, but guided tours cost around ₹200. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_68",
+      "patterns": [
+        "What is the cost to visit Dodda Alada Mara?",
+        "Tell me about a trip to Big Banyan Tree",
+        "I want to travel to Big Banyan Tree",
+        "How much for Banyan Tree tour?",
+        "Can you guide me for Banyan Tree visit?"
+      ],
+      "responses": [
+        "A trip to Big Banyan Tree typically costs around ₹300 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_69",
+      "patterns": [
+        "What is the cost to visit Ragigudda Temple?",
+        "Tell me about a trip to Ragigudda",
+        "I want to travel to Ragigudda Temple",
+        "How much for Ragigudda tour?",
+        "Can you guide me for Ragigudda visit?"
+      ],
+      "responses": [
+        "Visiting Ragigudda Temple is free, but special pooja costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_70",
+      "patterns": [
+        "What is the cost to visit HAL Museum?",
+        "Tell me about a trip to HAL Museum",
+        "I want to travel to HAL Museum",
+        "How much for HAL Museum tour?",
+        "Can you guide me for HAL visit?"
+      ],
+      "responses": [
+        "A trip to HAL Museum typically costs around ₹150 per person. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_71",
+      "patterns": [
+        "What is the cost to visit Phoenix Marketcity?",
+        "Tell me about a trip to Phoenix Mall",
+        "I want to travel to Phoenix Mall",
+        "How much for Phoenix Mall tour?",
+        "Can you guide me for Phoenix visit?"
+      ],
+      "responses": [
+        "Visiting Phoenix Mall is free, but shopping/dining costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_72",
+      "patterns": [
+        "What is the cost to visit Orion Mall?",
+        "Tell me about a trip to Orion Mall",
+        "I want to travel to Orion Mall",
+        "How much for Orion Mall tour?",
+        "Can you guide me for Orion visit?"
+      ],
+      "responses": [
+        "Visiting Orion Mall is free, but shopping/dining costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_73",
+      "patterns": [
+        "What is the cost to visit Commercial Street?",
+        "Tell me about a trip to Commercial Street",
+        "I want to travel to Commercial Street",
+        "How much for Commercial Street tour?",
+        "Can you guide me for Commercial visit?"
+      ],
+      "responses": [
+        "Visiting Commercial Street is free, but shopping costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_74",
+      "patterns": [
+        "What is the cost to visit Brigade Road?",
+        "Tell me about a trip to Brigade Road",
+        "I want to travel to Brigade Road",
+        "How much for Brigade Road tour?",
+        "Can you guide me for Brigade visit?"
+      ],
+      "responses": [
+        "Visiting Brigade Road is free, but shopping/dining costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_75",
+      "patterns": [
+        "What is the cost to visit MG Road?",
+        "Tell me about a trip to MG Road",
+        "I want to travel to MG Road",
+        "How much for MG Road tour?",
+        "Can you guide me for MG visit?"
+      ],
+      "responses": [
+        "Visiting MG Road is free, but shopping/dining costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_76",
+      "patterns": [
+        "What is the cost to visit Church Street?",
+        "Tell me about a trip to Church Street",
+        "I want to travel to Church Street",
+        "How much for Church Street tour?",
+        "Can you guide me for Church Street visit?"
+      ],
+      "responses": [
+        "Visiting Church Street is free, but dining costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_77",
+      "patterns": [
+        "What is the cost to visit UB City?",
+        "Tell me about a trip to UB City",
+        "I want to travel to UB City",
+        "How much for UB City tour?",
+        "Can you guide me for UB City visit?"
+      ],
+      "responses": [
+        "Visiting UB City is free, but dining/shopping costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_78",
+      "patterns": [
+        "What is the cost to visit Forum Mall?",
+        "Tell me about a trip to Forum Mall",
+        "I want to travel to Forum Mall",
+        "How much for Forum Mall tour?",
+        "Can you guide me for Forum visit?"
+      ],
+      "responses": [
+        "Visiting Forum Mall is free, but shopping/dining costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_79",
+      "patterns": [
+        "What is the cost to visit Garuda Mall?",
+        "Tell me about a trip to Garuda Mall",
+        "I want to travel to Garuda Mall",
+        "How much for Garuda Mall tour?",
+        "Can you guide me for Garuda visit?"
+      ],
+      "responses": [
+        "Visiting Garuda Mall is free, but shopping/dining costs vary. Let me know if you'd like more details!"
+      ]
+    },
+    {
+      "tag": "travel_guide_80",
+      "patterns": [
+        "What is the cost to visit Mantri Square?",
+        "Tell me about a trip to Mantri Square",
+        "I want to travel to Mantri Square",
+        "How much for Mantri Square tour?",
+        "Can you guide me for Mantri visit?"
+      ],
+      "responses": [
+        "Visiting Mantri Square is free, but shopping/dining costs vary. Let me know if you'd like more details!"
+      ]
+    }
+  ]
+}
